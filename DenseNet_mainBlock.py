@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+
 class DenseNet(nn.Module):
     def __init__(self, num_classes):
         super(DenseNet, self).__init__()
